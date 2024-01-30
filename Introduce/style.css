@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 15px 20px;
+}
+
+.social-network {
+  display: flex;
+}
+
+.fa-brands {
+  width: 24px;
+  height: 24px;
+  color: black;
+  padding: 2px;
+}
+
+.fa-brands:not(:nth-child()) {
+  margin-right: 5px;
+}
+
+.content {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  background-color: rgba(235, 134, 127, 0.6);
+}
+
+.name p {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.avaimage {
+  width: 166px;
+  height: 250px;
+}
+
+.infor {
+  position: relative;
+}
+
+.infor::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid black;
+  margin-left: -8px;
+}
+
+.life {
+  margin-top: 30px;
+  height: 500px;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.tdhv {
+  height: 50px;
+  width: 400px;
+  line-height: 50px;
+  background-color: rgb(235, 134, 127, 0.6);
+  margin-left: 25px;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+
+.KN {
+  height: 50px;
+  width: 300px;
+  line-height: 50px;
+  background-color: rgb(235, 134, 127, 0.6);
+  margin-left: 25px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.KN h2 {
+  color: white;
+}
+
+.exp,
+.prize {
+  height: 50px;
+  width: 400px;
+  line-height: 50px;
+  background-color: transparent;
+  margin-left: 25px;
+  margin-top: 40px;
+}
+
+.prize {
+  margin-top: 130px;
+}
+
+.tdhv h2,
+.exp h2,
+.prize h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(235, 134, 127, 0.6);
+}
+
+.THPT {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.HN,
+.HNR {
+  position: relative;
+}
+
+.HN::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid black;
+  margin-left: -5px;
+}
+
+.HNR::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid white;
+  margin-left: -5px;
+}
+
+.right .THPT p,
+.right .THPT li {
+  color: white;
+}
+
+.certi li {
+  color: white;
+}
+
+.skill,
+.certi {
+  margin-left: 70px;
+  margin-top: 30px;
+  line-height: 1.6;
+}
